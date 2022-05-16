@@ -1,0 +1,7 @@
+services:
+  App\Service\FS\Thumbnail\ThumbnailCreator:
+    public: true
+  App\Service\FS\FileSaver\LocalFileSaver:
+    public: true
+  App\Service\FS\FileSaver\S3Saver:
+    public: true
